@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraBooks</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botão">
+            <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburger container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link"> bolsas  </a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link"> bolsas de mão </a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link"> Nossa história </a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link"> favoritos </a></li>
+
+            </ul>
+        <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+        <h1 class="container__titulo"><b class="container__titulo--negrito">Amanda</b>Bolsas</h1>
+    </div>
+
+    <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão">
+        <label for="opções-menu" class="opções__rotulo">
+            <li class="opções__item">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link"> bolsas  </a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link"> bolsas de mão </a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link"> Nossa história </a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link"> favoritos </a></li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Minha sacola </a></li>
+    </ul>
+
+    <div class="opções">
+        <a href="#"><img src="img/Favoritos.svg" alt="meus Favoritos" class="container__imagem container__imagem-transparente"></a>
+        <a href="#" class="container__link">
+            <img src="img/Compras.svg" alt="carrinho de Compras" class="container__imagem">
+            <p class="container__texto">Minha sacola</p>
+        </a>
+        <a href="#" class="container__link">
+            <img src="img/Usuario.svg" alt="meu perfil" class="container__imagem">
+            <p class="container__texto">Meu perfil</p>
+        </a>
+    </div>
+    </header>
+
+
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe o que vai te fazer mais feliz?</h2>
+        <p class="banner__texto">Encontre em nossa loja o essencial!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima compra?">
+    </section>
+
+
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo"> Lançamentos</h2>
+        <!-- Slider main container -->
+     <div class="carrossel__container">
+    <div class="swiper">
+
+          <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/71yDf+gsd4L._AC_UF1000,1000_QL80_.jpg" alt=" bolsa"></div>
+      <div class="swiper-slide"><img src="img/bolsa-feminina-branco.20200221172814.jpg" alt=" bolsa"></div>
+      <div class="swiper-slide"><img src="img/bolsa-feminina-de-palha-11.webp" alt=" bolsa"></div>
+      <div class="swiper-slide"><img src="img/bolsa-feminina-rosa_620x620+fill_ffffff.jpg" alt=" bolsa"></div>
+      <div class="swiper-slide"><img src="img/bolsa_feminina_media_para_maos_resistente_luxo_ombro_pavao_de_ouro_547_1_c3161fe454204a93da7648841bd94de6.webp" alt=" bolsa"></div>
+      <div class="swiper-slide"><img src="img/S23e27e435fda4ed1beb590c24ba15cd4u.webp" alt=" bolsa"></div>
+   
+
+    </div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+     
+    </div>
+
+
+    <div class="card">
+   
+        <div class="card__descrição">
+           
+            <div class="descrição">
+                <h2 class="descrição__titulo-livro">Nossa hitória</h2>
+                <p class="descrição__texto">A loja "Amanda Bolsas" foi fundada por Amanda Pauletti há 2 anos, com o sonho de oferecer bolsas sofisticadas e funcionais. Iniciando com uma pequena coleção de peças exclusivas, Amanda rapidamente conquistou a clientela local com seu bom gosto e atendimento personalizado.</p>
+                <p class="descrição__texto">Localizada em um bairro comercial movimentado, a loja se destacou por sua seleção cuidadosa de bolsas que combinam elegância e praticidade. Com o tempo, "Amanda Bolsas" expandiu seu catálogo e lançou um site de e-commerce, permitindo que clientes de todo o país acessassem suas coleções.</p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="card">
+   
+        <div class="card__descrição">
+         
+            <div class="descrição">
+                <img class="descrição__estrelas" src="img/Estrelinhas.svg" alt="Estrelas de avaliação">
+                <h2 class="descrição__titulo-livro">Nossas bolsas</h2>
+                <p class="descrição__texto">Na loja "Amanda Bolsas", você encontrará uma impressionante variedade de bolsas que atendem a todos os estilos e necessidades. Desde bolsas sofisticadas para ocasiões especiais até modelos casuais e funcionais para o dia a dia, a seleção é cuidadosamente curada para garantir qualidade e elegância.</p>
+            </div>
+
+        </div>
+        <div class="card__botões">
+            <!--1 coluna-->
+            <ul class="botões">
+                <li class="botões__item"><img src="img/Favoritos.svg" alt="favoritar lirvro"></li>
+                <li class="botões__item"> <img src="img/Compras.svg" alt="adicinar no carrinho de compras"></li>
+            </ul>
+            <!--2 coluna-->
+            <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+    </div>
+
+
+</section>
+
+<section class="tópicos">
+    <h2 class="tópicos__titulo">VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+        <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Moda praia</a>
+        </li>
+
+        <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Casual</a>
+        </li>
+
+        <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Linha luxo</a>
+        </li>
+
+        <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Dia-a-dia</a>
+        </li>
+
+        <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Noite</a>
+        </li>
+
+        <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Festa</a>
+        </li>
+    </ul>
+</section>
+
+
+<section class="contato">
+    <div class="contato__descrição">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">Atualizações de moda, novas bolsas, promoções e outros.</p>
+    </div>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+</section>
+
+<hr/>
+
+<footer class="rodapé">
+    <h2 class="rodapé__titulo">Amanda Bolsas</h2>
+    
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+       spaceBetween: 10 ,
+       slidesPerView: 3,
+       pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets' ,
+       },
+
+    });
+</script>
+
+
+</body>
+
+
+</html>
